@@ -70,7 +70,7 @@ export default {
              // 5.获取参数的信息
             this.paramInfo = new GoodsParam(data.itemParams.info, data.itemParams.rule)
              // 4.保存商品的详情数据
-            // this.detailInfo = data.detailInfo;
+            this.detailInfo = data.detailInfo;
             //6.获取评论信息
             if(data.rate.cRate !== 0) {
                 this.commentInfo = data.rate.list[0]
